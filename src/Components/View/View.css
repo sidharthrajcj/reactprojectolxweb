@@ -1,0 +1,42 @@
+.viewParentDiv {
+  display: flex;
+  padding: 20px;
+}
+
+.imageShowDiv {
+  width: 60%;
+  padding: 20px;
+  border: 2px solid black; 
+  margin-right: 20px;
+}
+
+.productImage {
+  width: 100%;
+  height: auto;
+  max-height: 500px; 
+  object-fit: contain; 
+}
+
+.rightSection {
+  width: 40%;
+}
+
+.productDetails,
+.contactDetails {
+  border: 1px solid black;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+}
+
+.sliderImageWrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.singleImageWrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
